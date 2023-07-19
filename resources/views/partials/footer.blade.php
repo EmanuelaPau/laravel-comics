@@ -1,7 +1,7 @@
 <footer>
     <div class="footer-nav">
 
-        <div class="container">
+        <div class="my_container">
             <div class="nav-menu">
 
                 @foreach ($footerLinks['navLinks'] as $link)
@@ -24,7 +24,8 @@
         </div>
 
     </div>
-    <div class="footer-cta container">
+
+    <div class="footer-cta my_container">
         <button class="button-cta">Sign-up now!</button>
 
         <nav>
@@ -37,9 +38,6 @@
                     <img src="{{ Vite::asset('resources/img/' . $icon['img'] )}}" alt="{{$icon['link']}}">
                 </a>
             @endforeach
-            {{-- <a v-for="icons in navSocials" href="">
-                <img :src="'../assets/' + icons.img" :alt="icons.link">
-            </a> --}}
         </nav>
 
     </div>

@@ -89,7 +89,7 @@ main {
 
     div.jumbo {
         height: 330px;
-        background-image: url(../assets/jumbotron.jpg);
+        background-image: url(../img/jumbotron.jpg);
         background-size: cover;
 
     }
@@ -184,12 +184,12 @@ footer {
 
     .footer-nav {
         color: $colorLight;
-        background-image: url('../assets/footer-bg.jpg');
+        background-image: url('../img/footer-bg.jpg');
         background-repeat: none;
         background-size: cover;
         overflow: hidden;
 
-        div.container {
+        div.my_container {
             @include flex(row, space-between, center);
             height: 450px;
 

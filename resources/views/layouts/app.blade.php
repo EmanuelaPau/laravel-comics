@@ -18,7 +18,6 @@
     @include('partials.footer')
     {{-- @include('main-content') --}}
     @yield('custom-scripts-tail')
-    thomas
     @vite('resources/js/app.js')
 </body>
 </html>
