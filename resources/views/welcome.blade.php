@@ -13,6 +13,8 @@
                     Ciaone
                 </h3>
             </div>
+
+            @dd($posts)
         </div>
     </div>
 @endsection
