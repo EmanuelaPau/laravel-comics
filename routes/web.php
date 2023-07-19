@@ -15,5 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $posts = config('db.cards');
-    return view('welcome', compact('posts'));
+    $headerLinks = config('db.header-links');
+    $footerLinks = config('db.footer-links');
+    return view('welcome', compact('posts'), compact('headerLinks'), compact('footerLinks'));
 })->name('welcome');

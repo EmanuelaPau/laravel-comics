@@ -1,6 +1,50 @@
 <?php
 
 return [
+    'header-links' => [
+        [
+            [
+                'name' => 'characters',
+                'active' => false,
+            ],
+            [
+                'name' => 'comics',
+                'active' => false,
+            ],
+            [
+                'name' => 'movies',
+                'active' => false,
+            ],
+            [
+                'name' => 'tv',
+                'active' => false,
+            ],
+            [
+                'name' => 'games',
+                'active' => false,
+            ],
+            [
+                'name' => 'collectibles',
+                'active' => false,
+            ],
+            [
+                'name' => 'videos',
+                'active' => false,
+            ],
+            [
+                'name' => 'fans',
+                'active' => false,
+            ],
+            [
+                'name' => 'news',
+                'active' => false,
+            ],
+            [
+                'name' => 'shop',
+                'active' => false,
+            ],
+        ],
+    ],
     'cards' => [
         [
             "title" => "Action Comics #1000: The Deluxe Edition",
@@ -211,6 +255,84 @@ return [
             ],
             "writers" => [
                 "Joëlle Jones"
+            ],
+        ],
+    ],
+    'footer-links' => [
+        'navLinks' => [
+            [
+                'title' => 'DC Comics',
+                'pages' =>
+                [
+                    'Characters',
+                    'Comics',
+                    'Movies ',
+                    'TV',
+                    'Games',
+                    'Videos',
+                    'News'
+                ],
+            ],
+            [
+                'title' => 'Shop',
+                'pages' =>
+                [
+                    'Shop DC',
+                    'Shop DC Collectibles',
+                ],
+            ],
+            [
+                'title' => 'DC',
+                'pages' =>
+                [
+                    'Terms of use',
+                    'Privacy Policy (New)',
+                    'Ad Choices',
+                    'Advertising',
+                    'Jobs',
+                    'Subscriptions',
+                    'Talent Workshops',
+                    'CPSC Certificater',
+                    'Ratings',
+                    'Shop Help',
+                    'Contact Us',
+                ],
+            ],
+
+            [
+                'title' => 'Sites',
+                'pages' =>
+                [
+                    'DC',
+                    'MAD Magazine',
+                    'DC Kids',
+                    'DC Universe',
+                    'DC Power Visa',
+                ],
+            ],
+
+        ],
+
+        'navSocials' => [
+            [
+                'img' => 'footer-facebook.png',
+                'link' => '#'
+            ],
+            [
+                'img' => 'footer-twitter.png',
+                'link' => '#'
+            ],
+            [
+                'img' => 'footer-youtube.png',
+                'link' => '#'
+            ],
+            [
+                'img' => 'footer-pinterest.png',
+                'link' => '#'
+            ],
+            [
+                'img' => 'footer-periscope.png',
+                'link' => '#'
             ],
         ],
     ]
