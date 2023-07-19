@@ -3,15 +3,16 @@
 @section('title','Welcome')
 
 @section('main-content')
-    <h1>
-        Welcome
-    </h1>
-    <div class="container">
-        <div class="row">
+    <div class="container-fluid content ">
+        <div class="row justify-content-center my_container">
            @foreach ( $posts as $book )
-                <div class="col-3 p-2">
-                    <img src="{{$book['thumb']}}" alt="">
-                    <p>prova</p>
+                <div class="col p-1">
+                    <div class="comics-card">
+                        <div class="img-container">
+                            <img src="{{$book['thumb']}}" alt="">
+                            <p> {{substr($book['title'],0,20)}}</p>
+                        </div>
+                    </div>
                 </div> 
            @endforeach 
         </div>

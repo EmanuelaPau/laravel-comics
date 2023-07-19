@@ -2,48 +2,48 @@
 
 return [
     'header-links' => [
+
         [
-            [
-                'name' => 'characters',
-                'active' => false,
-            ],
-            [
-                'name' => 'comics',
-                'active' => false,
-            ],
-            [
-                'name' => 'movies',
-                'active' => false,
-            ],
-            [
-                'name' => 'tv',
-                'active' => false,
-            ],
-            [
-                'name' => 'games',
-                'active' => false,
-            ],
-            [
-                'name' => 'collectibles',
-                'active' => false,
-            ],
-            [
-                'name' => 'videos',
-                'active' => false,
-            ],
-            [
-                'name' => 'fans',
-                'active' => false,
-            ],
-            [
-                'name' => 'news',
-                'active' => false,
-            ],
-            [
-                'name' => 'shop',
-                'active' => false,
-            ],
+            'name' => 'characters',
+            'active' => false,
         ],
+        [
+            'name' => 'comics',
+            'active' => false,
+        ],
+        [
+            'name' => 'movies',
+            'active' => false,
+        ],
+        [
+            'name' => 'tv',
+            'active' => false,
+        ],
+        [
+            'name' => 'games',
+            'active' => false,
+        ],
+        [
+            'name' => 'collectibles',
+            'active' => false,
+        ],
+        [
+            'name' => 'videos',
+            'active' => false,
+        ],
+        [
+            'name' => 'fans',
+            'active' => false,
+        ],
+        [
+            'name' => 'news',
+            'active' => false,
+        ],
+        [
+            'name' => 'shop',
+            'active' => false,
+        ],
+
     ],
     'cards' => [
         [
