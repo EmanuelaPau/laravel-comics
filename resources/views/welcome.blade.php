@@ -2,19 +2,18 @@
 
 @section('title','Welcome')
 
-@section('main-section')
+@section('main-content')
     <h1>
         Welcome
     </h1>
     <div class="container">
         <div class="row">
-            <div class="col-12">
-                <h3>
-                    Ciaone
-                </h3>
-            </div>
-
-            @dd($posts)
+           @foreach ( $posts as $book )
+                <div class="col-3 p-2">
+                    <img src="{{$book['thumb']}}" alt="">
+                    <p>prova</p>
+                </div> 
+           @endforeach 
         </div>
     </div>
 @endsection

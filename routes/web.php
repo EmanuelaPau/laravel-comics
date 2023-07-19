@@ -17,5 +17,5 @@ Route::get('/', function () {
     $posts = config('db.cards');
     $headerLinks = config('db.header-links');
     $footerLinks = config('db.footer-links');
-    return view('welcome', compact('posts'), compact('headerLinks'), compact('footerLinks'));
-})->name('welcome');
+    return view('welcome', compact('posts', 'headerLinks', 'footerLinks'));
+})->name('homepage');
