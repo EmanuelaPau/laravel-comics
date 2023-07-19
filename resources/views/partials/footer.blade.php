@@ -7,7 +7,7 @@
                 @foreach ($footerLinks['navLinks'] as $link)
                 <div class="ul-list-container">
                     <h3>{{ $link['title'] }}</h3>
-                    <ul>
+                    <ul class="m-0 ps-0">
                         @foreach ($link['pages'] as $page)
                             <li>
                                 <a href="">
@@ -27,15 +27,20 @@
     <div class="footer-cta container">
         <button class="button-cta">Sign-up now!</button>
 
-        {{-- <nav>
+        <nav>
             <a class="cta-txt" href="">
                 follow us
             </a>
 
-            <a v-for="icons in navSocials" href="">
+            @foreach ( $footerLinks['navSocials'] as $icon)
+                <a href="">
+                    <img src="{{ Vite::asset('resources/img/' . $icon['img'] )}}" alt="{{$icon['link']}}">
+                </a>
+            @endforeach
+            {{-- <a v-for="icons in navSocials" href="">
                 <img :src="'../assets/' + icons.img" :alt="icons.link">
-            </a>
-        </nav> --}}
+            </a> --}}
+        </nav>
 
     </div>
 </footer>
